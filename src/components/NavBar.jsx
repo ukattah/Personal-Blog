@@ -5,7 +5,7 @@ export default function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className='bg-black fixed top-0 left-0 w-full flex justify-between items-center h-24 text-white px-8 shadow-lg'>
+        <nav className='bg-black fixed top-0 left-0 w-full flex justify-between items-center h-24 text-white px-8 shadow-lg z-50'>
             <div className='flex-1'>
                 <Link className='font-extrabold text-3xl tracking-wide' to="/">Home</Link>
             </div>
@@ -27,7 +27,7 @@ export default function NavBar() {
                 </button>
             </div>
             {isOpen && (
-                <div className='md:hidden absolute top-24 left-0 w-full bg-black'>
+                <div className='md:hidden absolute top-24 left-0 w-full bg-black z-50'>
                     <ul className='flex flex-col space-y-4 items-center py-4'>
                         <li className="active">
                             <Link className='text-lg font-medium hover:text-gray-400 transition-colors duration-300' to="/about">About</Link>
