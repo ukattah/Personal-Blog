@@ -2,7 +2,7 @@ import Header from "./components/Header"
 import NavBar from "./components/NavBar"
 import About from "./components/About"
 import Contact from "./components/Contact"
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
 
