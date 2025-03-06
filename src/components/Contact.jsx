@@ -12,11 +12,6 @@ export default function Contact() {
                     <FaGithub className='text-3xl text-black' />
                     <a href='https://github.com/ukattah' className='text-xl font-medium text-black hover:underline'>GitHub</a>
                 </div>
-                <div className='flex items-center space-x-4'>
-                    <FaEnvelope className='text-3xl text-gray-600' />
-                    <a href='mailto:enyinnaukattah@gmail.com' className='text-xl font-medium text-gray-600 hover:underline'>enyinnaukattah@gmail.com</a>
-                </div>
-
             </div>
         </div>
     );

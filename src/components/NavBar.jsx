@@ -18,6 +18,11 @@ export default function NavBar() {
                         <Link className='text-lg font-medium hover:text-gray-400 transition-colors duration-300' to="/contact">Contact Me</Link>
                     </li>
                 </ul>
+                <ul className='flex space-x-8'>
+                    <li>
+                        <Link className='text-lg font-medium hover:text-gray-400 transition-colors duration-300' to="/projects">Projects</Link>
+                    </li>
+                </ul>
             </div>
             <div className='flex md:hidden'>
                 <button onClick={() => setIsOpen(!isOpen)} className='text-white'>
